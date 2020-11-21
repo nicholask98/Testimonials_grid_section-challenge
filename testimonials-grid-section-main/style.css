@@ -1,0 +1,21 @@
+/*
+        ============
+           General
+        ============
+*/
+
+body {
+    background-color: hsl(210, 46%, 95%)
+}
+
+.t-container {
+    width: 1440px;
+    display: grid;
+    grid-template-rows: 30% 30%;
+    grid-template-columns: repeat(4, 21%);
+    background-color: lightcoral;
+}
+
+.t-container > div:nth-of-type(odd) { /*for testing*/
+    background-color: lightskyblue;
+}
